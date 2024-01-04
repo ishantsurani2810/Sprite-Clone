@@ -1,0 +1,351 @@
+/*  home page start */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.maindiv {
+  background-color: rgb(0, 155, 78);
+}
+.div1 a img {
+  margin: 8px 10px 10px 25px;
+}
+.use1:hover {
+  color: black;
+}
+#si li{
+  margin-left: 10px;
+}
+#si li a span {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-weight: 200;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#si li a span:hover {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+  border-bottom: 5px solid black;
+  padding-bottom: 36px;
+  transition: 0.5s;
+  
+}
+.div2 li i {
+  color: white;
+  font-size: 20px;
+}
+.div2 li i:hover {
+  color: black;
+  transition: 0.6s;
+}
+.div2 {
+  margin-top: 10px;
+  margin-left: 200px;
+}
+.div2 li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+#wrappar {
+  background-color: black;
+}
+
+.div4 h1 {
+  color: rgb(20, 170, 80);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 100px 0px 0px 140px;
+}
+
+.div4 img {
+  margin-left: 140px;
+}
+
+.div5 a {
+  height: 40px;
+  width: 160px;
+  margin: 50px 0px 0px 150px;
+  text-align: center;
+  padding: 7px;
+  color: black;
+  font-weight: 900;
+  background-color: yellow;
+}
+
+.div5 a:hover {
+  background-color: white;
+  color: rgb(0, 155, 78);
+}
+
+.div6 {
+  list-style: none;
+  margin-top: 14px;
+  margin-right: 0px;
+}
+.div6 li a i {
+  color: beige;
+}
+.col1,
+.col2 {
+  margin-top: 50px;
+}
+p {
+  font-size: 64px;
+  line-height: 1em;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 900px;
+  margin-left: 20px;
+}
+h2 {
+  margin-left: 20px;
+  color: black;
+  line-height: 50px;
+  line-height: 1em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+#but {
+  margin: 20px 0px 0px 20px;
+  font-weight: 900;
+}
+#but span {
+  background-color: yellow;
+  color: black;
+  padding: 10px 40px;
+}
+#but span:hover {
+  background-color: white;
+  color: rgb(0, 150, 57);
+}
+#cont p {
+  color: rgb(0, 150, 57);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.23em;
+  font-style: normal;
+  font-size: 64px;
+}
+#cont {
+  margin-top: 100px;
+}
+.flogo img {
+  height: 75px;
+  margin: 100px 0px 0px 0px;
+}
+.list {
+  margin: 90px 0px 0px 5px;
+}
+.list p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px 106px;
+}
+.list ul {
+  margin: 40px 0px 0px 85px;
+  letter-spacing: 5px;
+}
+.list ul li {
+  display: inline;
+  opacity: 0.4;
+  border-radius: 30px;
+}
+.list ul li:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+.pro ul li a {
+  color: white;
+}
+.pro ul {
+  list-style: none;
+  margin: 40px 0px 0px 0px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.pro ul li {
+  padding-bottom: 20px;
+  color: white;
+  line-height: 24px;
+}
+#im {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 10px;
+}
+#im h6 {
+  color: white;
+  margin-top: 40px;
+  text-decoration: none;
+}
+#im h6 a {
+  color: white;
+}
+.ul1 {
+  margin-top: 30px;
+}
+.ul1 li {
+  display: inline;
+  border-left: 2px solid white;
+  padding: 0px 10px 0px 10px;
+}
+
+.ul1 li a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.ul1 li a:hover {
+  color: black;
+  transition: 0.5s;
+}
+@media only screen and (max-width: 990px) {
+  #togbutton {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+  }
+  .div2 ul {
+    display: inline;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .div1 ul li a span:hover {
+    color: black;
+    border-bottom: 0px;
+  }
+  #si li a span:hover {
+    border-bottom: 0px solid white;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .div2 {
+    margin-left: 70px;
+  }
+  .div4 h1 {
+    margin: 20px;
+  }
+  .div4 img {
+    margin: 0px;
+  }
+  .div5 a {
+    text-align: center;
+  }
+}
+
+/*    home page end */
+
+/*  product page start */
+
+.back {
+  background-color: black;
+}
+.pdiv1 p {
+  color: white;
+  letter-spacing: 3px;
+}
+.pdiv2 a img {
+  height: 100%;
+  width: 100%;
+}
+.pdiv2 {
+  text-align: center;
+}
+.tex {
+  color: white;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
+.btn2,
+.btn1 {
+  background-color: black;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+  padding: 10px;
+  width: 150px;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+.btn2:hover {
+  background-color: rgb(0, 150, 57);
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid white;
+}
+.btn1:hover {
+  background-color: rgb(0, 150, 57);
+  color: black;
+  border: 1px solid white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* prodct page end  */
+
+/* zero sugar page start */
+
+.imgzero {
+  background-image: url(f_icone/zero-pro.png);
+  height: 617px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hello {
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 900;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn3 {
+  background-color: yellow;
+  color: black;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 300px;
+  border: 1px solid white;
+}
+.btn3:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid black;
+}
+.btn4 {
+  background-color: yellow;
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid white;
+}
+.btn4:hover {
+  background-color: white;
+  color: green;
+  border: 1px solid black;
+}
+.izero a img {
+  size: 5px;
+  padding: 10px;
+}
+@media (max-width: 800px) {
+  .hello {
+    top: 30%;
+    left: 20%;
+  }
+}
+/* creator page start  */
+
+/* creators page end */
+
+/* buy now page start */

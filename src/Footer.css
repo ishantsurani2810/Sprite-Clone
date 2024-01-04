@@ -1,0 +1,8 @@
+@media only screen and (max-width: 988px)  {
+    #footer1{
+        justify-content: center;
+    }
+    .flogo{
+        margin-right: 10rem;
+    }
+}
